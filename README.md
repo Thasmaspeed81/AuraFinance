@@ -151,4 +151,3 @@ main.c                                                │
 
 ---
 
-*Submitted as part of the 1st Year CSE Programming in C course project.*
