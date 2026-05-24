@@ -8,10 +8,10 @@
 
 | Member | File | Responsibility |
 |--------|------|----------------|
-| Student 1 | `main.c` | Program entry point, menu system, global variables |
-| Student 2 | `expense_operations.c` | Add, View, and Delete expenses |
-| Student 3 | `search_summary.c` | Search by category and summary report |
-| Student 4 | `file_handler.c` | Save and Load data from file |
+| Advait SCFU125062 | `main.c` | Program entry point, menu system, global variables |
+| Riya SCFU125059 | `expense_operations.c` | Add, View, and Delete expenses |
+| Mukta SCFU125057 | `search_summary.c` | Search by category and summary report |
+| Aditya SCFU125061 | `file_handler.c` | Save and Load data from file |
 | All Members | `expense.h` | Shared header file (struct + declarations) |
 
 ---
@@ -22,10 +22,10 @@
 expense-tracker/
 │
 ├── expense.h                 ← Shared header (ALL members include this)
-├── main.c                    ← Student 1: Entry point & menu
-├── expense_operations.c      ← Student 2: Add / View / Delete
-├── search_summary.c          ← Student 3: Search & Summary
-├── file_handler.c            ← Student 4: Save & Load from file
+├── main.c                    ← Advait : Entry point & menu
+├── expense_operations.c      ← Riya : Add / View / Delete
+├── search_summary.c          ← Mukta : Search & Summary
+├── file_handler.c            ← Aditya : Save & Load from file
 │
 └── expenses.txt              ← Auto-generated when you save (do not edit manually)
 ```
@@ -140,28 +140,6 @@ main.c                                                │
 
 ---
 
-## 🤝 How We Collaborated (Git Workflow)
-
-Each member worked on their own file and contributed via GitHub:
-
-```bash
-# Clone the repository
-git clone https://github.com/<your-username>/expense-tracker.git
-
-# Each member works on their assigned file
-# After completing:
-git add <your_file.c>
-git commit -m "Add: expense_operations.c — Student 2"
-git push origin main
-```
-
----
-
-## 📋 Requirements
-
-- GCC compiler (version 5 or above)
-- Any terminal / command prompt
-- No external libraries needed — only standard C (`stdio.h`, `string.h`)
 
 ---
 
